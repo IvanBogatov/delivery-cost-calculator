@@ -1,7 +1,7 @@
 import streamlit as st
 from delivery import Delivery
 
-d = Delivery('/workspaces/delivery-cost-calculator/data/data.xlsx')
+d = Delivery('data/data.xlsx')
 
 st.header('Delivery options calculator')
 from_city = st.selectbox('Departure City', ['Sydney', 'Melbourne'])
